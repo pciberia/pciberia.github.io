@@ -1,0 +1,101 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+ * selectors). */
+.header {
+	background-color: rosybrown;
+}
+.content {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+
+}
+.cita {
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+.langs {
+	text-align: right;
+        margin-top: -3%;
+	margin-right: 3%;
+}
+body {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+	 /* background-color: rgb(240,240,240);*/
+	  font-family: arial, sans-serif;
+}
+img {
+    margin: auto;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+	font-size: 100%;
+       }
+  .logo { 
+	 width: 70%;
+	 display: block;
+	 margin: 0 auto;
+	 padding-top: 2%;
+ 	}
+ footer {
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-bottom: 3%;
+            margin-top: 3%;
+    }
+}
+@media only screen and (min-width: 650px) {
+  body {
+	font-size: 100%;
+       }
+  .logo { 
+ 	  width: 25%;
+ 	  position: relative;
+	 margin-top: 0.6%;
+	 margin-left: 2.2%;
+	 align: left;
+ 	}
+ footer {
+            position: fixed;
+            bottom: 0.001%;
+	    width: 90%;
+            margin-left: 3%;
+            margin-right: 3%;
+    }
+
+}
+
+	/* Applies to all <h1>...</h1> elements. */
+	h1 {
+	    text-align: center;
+	    font-size: 35px;
+	    font-weight: normal;
+            margin-top: 10px;
+          }
+	
+    /*.someclass { color: red; }*/
+
+  a:hover {
+  
+   	     text-decoration: none;
+	     font-style: italic;
+  	     /*font-size: 16px;*/
+     }  
+ 
+#mail { 
+	   color: green;
+   	   text-decoration: none;
+  	   text-align: right; 
+	   margin-bottom: 1%;
+  	   font-size: 28px;
+   }
+    
+ #mail:hover { 
+   	     text-decoration: none;
+	     font-weight: bold;
+	     font-style: italic;
+     }
