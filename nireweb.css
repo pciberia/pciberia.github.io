@@ -43,9 +43,9 @@ img {
  	}
  footer {
             margin-left: 0%;
-            margin-right: 3%;
-            margin-bottom: 3%;
-            margin-top: 3%;
+            margin-right: 1%;
+            margin-bottom: 1%;
+            margin-top: 1%;
     }
 }
 @media only screen and (min-width: 650px) {
@@ -64,7 +64,7 @@ img {
 	    bottom: 0.001%;
 	    width: 90%;
             margin-left: 0%;
-            margin-right: 3%;
+            margin-right: 1%;
     }
 
 }
